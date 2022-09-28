@@ -1,0 +1,37 @@
+.main{
+    text-align: center;
+}
+
+.a1{
+    text-align: center;
+}
+
+.a2{
+    text-align: center;
+    vertical-align:middle;
+    writing-mode: vertical-rl;
+}
+
+table{
+    /* padding: 50px; */
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 100px;
+
+}
+
+th,td{
+    padding: 15px;
+    border: 2px solid;
+    border-style:inset;
+    border-collapse: collapse;
+}
+
+
+tr:nth-child(even){
+    background-color: rgb(191, 191, 184);
+}
+
+tr:nth-child(odd){
+    background-color: lightgray;
+}
